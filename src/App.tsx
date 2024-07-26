@@ -20,7 +20,7 @@ function App() {
   });
 
   return (
-    <body className=' min-h-screen flex  flex-col items-center justify-center p-8 bg-purple-950'>
+    <body className=' min-h-screen flex  flex-col items-center justify-center p-8 bg-gradient-to-br from-blue-500 to-violet-800'>
       <h1 className=' text-3xl font-black text-purple-100'>Movie Flex</h1>
       <form
         className='
