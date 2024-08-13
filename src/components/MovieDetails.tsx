@@ -1,5 +1,6 @@
+import { ArrowUturnLeftIcon } from '@heroicons/react/16/solid';
 import { useQuery } from '@tanstack/react-query';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { getMovieDetails } from '../data/apiRequest';
 import { MediaType } from '../data/apiResponse';
 
@@ -33,6 +34,9 @@ function MovieDetails() {
         <button className='px-4 py-2 text-white bg-yellow-500 rounded-full shadow-md'>
           Watch Trailer
         </button>
+        <Link to='/'>
+          <ArrowUturnLeftIcon className='h-10 w-10 text-yellow-500 hover:scale-105 transition-all ' />
+        </Link>
       </div>
     </div>
   );
